@@ -23,15 +23,11 @@ class HashTableHeaders:
         else:
             pointer_node_traversel = self.hash_table_array[h]
 
-
         while ( pointer_node_traversel.next_node_ptr == None ) :
             if pointer_node_traversel.next_node_ptr == None:
                 pointer_node_traversel.next_node_ptr = node
             else:
-                pointer_node_traversel = pointer_node_traversel.next_node_ptr
-            
-
-        # self.hash_table_array[h] = node
+                pointer_node_traversel = pointer_node_traversel.next_node_ptr            
 
     def get_header(self,key):
         h = self.generate_hash(key)
@@ -41,7 +37,6 @@ class HashTableHeaders:
         # this function checks if my key is in the HashMap or not
         # which key you want to check
         # for that we will take in KEY to get its _hash_value_
-
         h = self.generate_hash(key)
         pointer_node_traversel = self.hash_table_array[h]
 
@@ -49,19 +44,12 @@ class HashTableHeaders:
             if pointer_node_traversel.node_value == key:
                 return True
             pointer_node_traversel = pointer_node_traversel.next_node_ptr
-
         return False
-
 
 class Node:
     def __init__(self,node_value,next_node_ptr = None) -> None:
         self.node_value = node_value
         self.next_node_ptr = next_node_ptr
-
-class LinkedList:
-    def __init__(self) -> None:
-        pass
-
 
 obj = HashTableHeaders(10)
 '''
