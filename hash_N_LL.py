@@ -51,12 +51,11 @@ class Node:
         self.node_value = node_value
         self.next_node_ptr = next_node_ptr
 
+'''
 obj = HashTableHeaders(10)
 
-'''
 print(obj.size_of_hash_table) # to check the size of the hash table array
 print(obj.hash_table_array) # check if the array is initilized properly 
-'''
 
 obj.add_header("Jhon")
 obj.add_header("Jacob")
@@ -72,3 +71,4 @@ print(value1)
 
 print(obj.size_of_hash_table) # to check the size of the hash table array
 print(obj.hash_table_array) 
+'''
