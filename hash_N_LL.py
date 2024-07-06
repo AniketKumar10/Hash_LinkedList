@@ -57,15 +57,16 @@ print(obj.size_of_hash_table) # to check the size of the hash table array
 print(obj.hash_table_array) # check if the array is initilized properly 
 '''
 
-#obj.add_header("Niraj")
-#obj.add_header("Kumar")
+obj.add_header("Jhon")
+obj.add_header("Jacob")
+obj.add_header("Charles")
+obj.add_header("Hamilton")
+obj.add_header("Max")
+obj.add_header("Lando")
+obj.add_header("Carlos")
+obj.add_header("Oscar")
 
-obj.add_header("Aniket")
-obj.add_header("Rhea")
-
-#obj.add_header("Adhish")
-
-value1 = obj.verify_key("Rhea")
+value1 = obj.verify_key("Oscar")
 print(value1)
 
 print(obj.size_of_hash_table) # to check the size of the hash table array
