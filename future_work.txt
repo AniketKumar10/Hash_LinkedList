@@ -1,0 +1,9 @@
+Add the future works here so that I can update it later
+
+-> Deleting the node function
+-> (optional) - adding more elements in the data part of the node
+    --> for this I guess I have to create a specific key to allot a space
+-> check for cache redudancy (keeping track of it)
+-> later down the line check for search algorithms
+-> 
+-> Create an importable Package to use easily 
